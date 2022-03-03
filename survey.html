@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="survey.css">
+        </head>
+<h1 id="title">
+    Survey About Coffee 
+  </h1>
+  <p id="description"><i>Personal Information</i></p>
+  
+  <p><form id="survey-form">
+    <div class="form-control">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required /></p>
+    </div>
+    
+    <p><div class="form-control">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required /></p>
+    </div>
+    
+    <p><div class="form-control">
+      <label for="number" id="number-label">Age</label>
+      <input type="number" id="number" placeholder="Enter your age" required min="0" max="200" /></p>
+    </div>
+    
+    <p><div class="form-control">
+      <label for="Gender">Which option best describes your gender</label>
+      <select name="Gender" id="dropdown">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Transgender">Transgender </option>
+        <option value="nonbinary ">Nonbinary</option>
+      </select></p>
+    </div>
+    
+    <p><div class="form-control">
+      <label>Do You Enjoy Coffee?</label></p>
+      
+      <p><label for="enjoy-1"><input type="radio" id="enjoy-1" name="enjoy" value="love"/> Love</label></p>
+      <p><label for="enjoy-2"><input type="radio" id="enjoy-2" name="enjoy" value="its-ok"/> It's Okay</label></p>
+      <p><label for="enjoy-3"><input type="radio" id="enjoy-3" name="enjoy" value="hate"/> </label> Hate</div></p>
+    
+    <div class="form-control">
+      <label for="feature">What Type of coffee do you enjoy?</label>
+      <select name="type" id="type">
+        <option value="regular">Regular</option>
+        <option value="half-caf">Half-Caffinated</option>
+        <option value="Decaf">Decaffinated</option>
+    </div>
+    
+    <div class="form-control"What is your favorite Brand of Coffee
+      <label> <small>(Check all that apply)</small></label>
+      <label for="brand-1"><input type="checkbox" name="brand" id="brand" value="brand-1"/>Starbucks</label> 
+  
+  <label for="brand-2"><input type="checkbox" name="brand" id="brand" value="brand-2"/>McCafe</label> 
+  
+  <label for="brand-3"><input type="checkbox" name="brand" id="brand" value="brand-3"/>Dunkin Donuts</label> 
+  
+  <label for="brand-4"><input type="checkbox" name="brand" id="brand" value="brand-4"/>Deathwish</label> 
+  
+  <label for="brand-5"><input type="checkbox" name="brand" id="brand" value="brand-5"/>Store Brand</label> 
+  
+  <label for="brand-6"><input type="checkbox" name="brand" id="brand" value="brand-6"/>Green Mountain</label>
+  
+  <label for="brand-7"><input type="checkbox" name="brand" id="brand" value="brand-7"/>Wawa</label> 
+  
+  <label for="brand-8"><input type="checkbox" name="brand" id="brand" value="brand-8"/>Other</label>
+    </div>
+    <p><div class="form-control">
+      <label for="comments">Any comments or suggestions?</label>
+      <textarea name="comments" id="comments" placeholder="Enter your comment here..."></textarea>
+    </div></p>
+    
+    <button type="submit" id="submit">Submit</button
+  </form>
+  </html>
